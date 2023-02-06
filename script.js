@@ -10,6 +10,17 @@ function search(city){
         return response.json()
     }) .then(function (data){
         console.log(data);
+        var icon = data.weather[0].icon
+        var iconURL = `https://openweathermap.org/img/w/${icon}.png`
+        var searchedCity = $(`
+        <h2>${data.name} <img src='${iconURL}' alt = '${data.weather[0].description}'/></h2>
+        <p>temperature ${data.main.temp}</p>
+        <p>humidity ${data.main.humidity}</p>
+        <p>wind-speed ${data.wind.speed}</p>
+        
+        `)
+        $('.forecast').append(searchedCity) 
+        // set a var for latitude/longitude
     })
 }
 
