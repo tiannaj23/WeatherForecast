@@ -1,6 +1,6 @@
 var searcheddata = [];
 var rootURL = 'https://api.openweathermap.org';
-var apiKey = 'df3fb9934a7d8ebae97c6749b588071a';
+var apiKey = '25398e04490cafc49d1aa70a6c6ee328';
 
 function search(city){
     fetch(
