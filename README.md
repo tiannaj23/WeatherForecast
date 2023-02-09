@@ -15,3 +15,7 @@ To navigate the Weather Forecast website, search for a city. Then you will be pr
 The following screenshot shows the deployed website and the link will take you to live deployed website.
 
 ![screen shot](./images/Screenshot%202023-02-08%20at%209.51.39%20PM%20Large.jpeg)
+
+## Resources
+
+<p><a href="https://openweathermap.org/">OpenWeather API</a></p>
