@@ -3,6 +3,7 @@ var rootURL = 'https://api.openweathermap.org';
 var apiKey = '25398e04490cafc49d1aa70a6c6ee328';
 
 function search(city){
+    // Current weather request from open weather api
     fetch(
 
         `${rootURL}/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
